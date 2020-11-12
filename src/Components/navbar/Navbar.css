@@ -30,10 +30,15 @@ header {
 .mobile-nav-links {
     display: none;
 }
+.mobile-menu {
+    width: 100%;
+    overflow: hidden;
+}
 @media screen and (max-width: 480px) {
  .menu-button {
-     display: inline;
+     display: block;
      transform: scale(1.2);
+     color: black;
  }
  .nav-links {
      display: none;
@@ -63,12 +68,14 @@ header {
      font-weight: bold;
  }
  .mobile-menu {
-
-     overflow: hidden;
+    display: block;
+    overflow: hidden;     
+    position: inherit;
  }
 .mobile-nav-links-show {
     right: -60%;
     transform: translateX(-50%);
+    overflow: show;
 }
 
 }

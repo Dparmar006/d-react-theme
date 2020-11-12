@@ -1,0 +1,42 @@
+.section__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section__left {
+    margin-bottom: 1em;
+}
+
+.search-form {
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-card {
+    min-width: 250px;
+    max-width: 480px;
+    background-color: white;
+    padding: 1em;
+    margin-bottom: 1.5em;
+    border-radius: 16px;
+    position: relative;
+} 
+
+.search-card-subtitle {
+    margin-top: 0;
+    color: grey;
+}
+
+.search-card-buttons {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    display: flex;
+    width: 6em;
+    justify-content: space-around;
+}
+.search-icon-button {
+   font-size: xx-small;
+    display: grid;
+    align-items: center;
+}

@@ -1,4 +1,19 @@
+:root {
+  --fonts :  -apple-system,
+  Roboto,
+  BlinkMacSystemFont,
+  'Segoe UI',
+  'Roboto',
+  'Oxygen',
+  'Ubuntu',
+  'Cantarell',
+  'Fira Sans',
+  'Droid Sans',
+  'Helvetica Neue',
+  sans-serif;
 
+  --gradient: linear-gradient(47deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
+}
 body {
   margin: 0;
   padding: 0;
@@ -24,6 +39,10 @@ a {
   font-weight: 400;
 }
 
+h1,h2,h3,h4,h5,h6 {
+  margin: .5em 0;
+  padding: 0;
+}
 .icon {
  font-size: 24px;
  height: 1em;
@@ -37,4 +56,29 @@ a {
   background: none;
   outline: none;
   transition: all .550ms ease;
+}
+
+  /* section main */
+  section {
+    margin: 1.5em 1em;
+  }
+
+/* input defaults */
+input[type=text]{
+  border: none;
+  outline: none;
+  padding: .8em;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-family: var(--fonts);
+}
+button {
+  border: none;
+  outline: none;
+  padding: .8em;
+  border-radius: 10px;
+  background: var(--gradient);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
 }
