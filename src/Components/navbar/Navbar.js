@@ -2,6 +2,13 @@ import React from "react";
 import "./Navbar.css";
 
 const Navbar = () => {
+  const toggleMobileNavigation = () => {
+    const icon = document.getElementById("menu-icon");
+    const menu = document.getElementById("mobile-nav-links");
+    menu.classList.toggle("mobile-nav-links-show");
+    icon.innerHTML = icon.innerHTML == "menu" ? "close" : "menu";
+  };
+
   return (
     <header>
       <nav className="header__container">
@@ -29,15 +36,23 @@ const Navbar = () => {
               </a>
             </li>
           </ul>
-          <div className="menu-button">
+          <button
+            className="icon-button menu-button"
+            id="menu-button"
+            onClick={(event) => {
+              toggleMobileNavigation();
+            }}
+          >
             <div className="icon">
-              <i className="material-icons">menu</i>
+              <i className="material-icons" id="menu-icon">
+                menu
+              </i>
             </div>
-          </div>
+          </button>
         </div>
       </nav>
       <div className="mobile-menu">
-        <ul className="mobile-nav-links">
+        <ul className="mobile-nav-links" id="mobile-nav-links">
           <li>
             <a href="" className="nav-link">
               Home

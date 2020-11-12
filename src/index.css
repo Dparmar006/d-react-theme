@@ -1,3 +1,4 @@
+
 body {
   margin: 0;
   padding: 0;
@@ -30,3 +31,10 @@ a {
  display: grid;
  align-items: center;
 } 
+
+.icon-button {
+  border: none;
+  background: none;
+  outline: none;
+  transition: all .550ms ease;
+}
