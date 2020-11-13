@@ -13,6 +13,7 @@
   sans-serif;
 
   --gradient: linear-gradient(47deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
+  --horizontal-gradient: linear-gradient(90deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
   --shadow: 0px 6px 20px rgba(0, 0, 0, 0.185);
   --hover-shadow: 0px 3px 20px rgba(65, 54, 241, .7);
 }
@@ -25,13 +26,29 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+scroll-behavior: smooth;
 background: #EAF2FF;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;
+  border-radius: 50px;
+  background-color: #D8D8D8;
+}
+
+body::-webkit-scrollbar-thumb {
+background-color:#4f39f4b6;
+  border-radius: 50px;
+}
+::selection {
+  color: white;
+  border-radius: 2px;
+  background: rgba(65, 54, 241, .7);
 }
 .app {
   overflow: hidden;
@@ -80,13 +97,14 @@ input[type=text]{
   border-radius: 10px;
   font-size: 1.1rem;
   font-family: var(--fonts);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.103);
 }
 button {
   border: none;
   outline: none;
   padding: .8em;
   border-radius: 8px;
-  background: var(--gradient);
+  background: var(--horizontal-gradient);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;

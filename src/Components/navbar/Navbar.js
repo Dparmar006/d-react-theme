@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="header__menu">
           <ul className="nav-links">
             <li>
-              <a href="" className="nav-link">
+              <a href="" className="nav-link active">
                 Home
               </a>
             </li>
@@ -54,7 +54,7 @@ const Navbar = () => {
       <div className="mobile-menu" id="mobile-menu">
         <ul className="mobile-nav-links" id="mobile-nav-links">
           <li>
-            <a href="" className="nav-link">
+            <a href="" className="nav-link active">
               Home
             </a>
           </li>

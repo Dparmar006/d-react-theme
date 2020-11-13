@@ -18,6 +18,9 @@ header {
     display: flex;
     list-style: none;
 }
+.active {
+    border-bottom: 3px solid  rgba(65, 54, 241, .4);
+}
 
 .nav-link {
     margin: 0 1em;
@@ -26,6 +29,7 @@ header {
 /* mobile menu */
 .menu-button {
     display: none;
+    box-shadow: none;
 }
 .mobile-nav-links {
     display: none;
@@ -39,6 +43,7 @@ header {
      display: block;
      transform: scale(1.2);
      color: black;
+     box-shadow: none;
  }
  .nav-links {
      display: none;

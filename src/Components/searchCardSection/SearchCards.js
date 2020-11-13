@@ -44,6 +44,7 @@ const SearchCards = () => {
           <form className="search-form">
             <input type="text" placeholder="Search here" />
             <button>
+              {/* TODO: Make this primary button */}
               <div className="icon">
                 <i className="material-icons">search</i>
               </div>
