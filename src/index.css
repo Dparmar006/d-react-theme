@@ -31,7 +31,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.app {
+  overflow: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+}
 /* defaults */
 a {
   text-decoration: none;

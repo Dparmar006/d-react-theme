@@ -54,10 +54,10 @@ header {
      list-style: none;
      justify-content: center;
      padding: 0 20px;
-     margin: 0 auto;
+     
      position: absolute;
-     right: -150%;
-     width: 100%;
+     top: -50%;
+     width: 87.5%;
      background-color: #ffffff;
 
      /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); */
@@ -67,14 +67,14 @@ header {
      margin-bottom: 20px;
      font-weight: bold;
  }
- .mobile-menu {
-    display: block;
-    overflow: hidden;     
-    position: inherit;
+ #mobile-menu {
+    overflow: hidden !important;     
+    display: grid;
+    align-items: center;
  }
 .mobile-nav-links-show {
-    right: -60%;
-    transform: translateX(-50%);
+    top: 10%;
+    /* transform: translateX(%); */
     overflow: show;
 }
 

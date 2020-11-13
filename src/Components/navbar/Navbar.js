@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <header>
       <nav className="header__container">
-        <div className="header__logo">D-Theme</div>
+        <div className="header__logo">BookOn</div>
         <div className="header__menu">
           <ul className="nav-links">
             <li>
@@ -51,7 +51,7 @@ const Navbar = () => {
           </button>
         </div>
       </nav>
-      <div className="mobile-menu">
+      <div className="mobile-menu" id="mobile-menu">
         <ul className="mobile-nav-links" id="mobile-nav-links">
           <li>
             <a href="" className="nav-link">

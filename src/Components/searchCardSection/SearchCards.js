@@ -17,6 +17,7 @@ const SearchCards = () => {
             </div>
           </button>
           <button
+            type="submit"
             className="search-icon-button"
             onClick={(event) => {
               const icon = document.getElementById("heart");
