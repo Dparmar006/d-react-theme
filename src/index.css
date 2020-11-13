@@ -1,6 +1,6 @@
 :root {
   --fonts :  -apple-system,
-  Roboto,
+  poppins
   BlinkMacSystemFont,
   'Segoe UI',
   'Roboto',
@@ -13,12 +13,14 @@
   sans-serif;
 
   --gradient: linear-gradient(47deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
+  --shadow: 0px 6px 20px rgba(0, 0, 0, 0.185);
+  --hover-shadow: 0px 3px 20px rgba(65, 54, 241, .7);
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: -apple-system, Roboto, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, poppins BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -66,6 +68,9 @@ h1,h2,h3,h4,h5,h6 {
   section {
     margin: 1.5em 1em;
   }
+  section h2 {
+    width: 100%;
+  }
 
 /* input defaults */
 input[type=text]{
@@ -80,9 +85,26 @@ button {
   border: none;
   outline: none;
   padding: .8em;
-  border-radius: 10px;
+  border-radius: 8px;
   background: var(--gradient);
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
+  cursor: pointer;
+  box-shadow: var(--shadow);
+  transition: all 500ms ease;
+}
+
+button:hover {
+  box-shadow: var(--hover-shadow);
+}
+
+.primary-button {
+  width: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+img {
+  height: 100%;
+  width: 100%;
 }

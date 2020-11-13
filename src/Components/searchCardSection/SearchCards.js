@@ -1,10 +1,10 @@
 import React from "react";
 import "./SearchCard.css";
 const SearchCards = () => {
-  const searchCard = () => {
+  const searchCard = (title) => {
     return (
       <div className="search-card">
-        <h3 className="search-card-title">First card</h3>
+        <h3 className="search-card-title">{title}</h3>
         <p className="search-card-subtitle">3.2 K</p>
         <p className="search-card-description">
           Sit qui ad culpa velit duis nulla elit quis consequat nisi labore elit
@@ -52,12 +52,11 @@ const SearchCards = () => {
         </div>
         <div className="section__right">
           <h2>Here you go...</h2>
-          {searchCard()}
-          {searchCard()}
-          {searchCard()}
-          {searchCard()}
-          {searchCard()}
-          {searchCard()}
+
+          {searchCard("First card")}
+          {searchCard("Second card")}
+          {searchCard("Third card")}
+          {searchCard("Fourth card")}
           <div className="cards"></div>
         </div>
       </div>
