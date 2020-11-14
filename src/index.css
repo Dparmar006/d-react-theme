@@ -12,7 +12,7 @@
   'Helvetica Neue',
   sans-serif;
 
-  --gradient: linear-gradient(47deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
+  --gradient: linear-gradient(45deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
   --horizontal-gradient: linear-gradient(90deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%);
   --shadow: 0px 6px 20px rgba(0, 0, 0, 0.185);
   --hover-shadow: 0px 3px 20px rgba(65, 54, 241, .7);
@@ -42,7 +42,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-background-color:#4f39f4b6;
+background-color: #4f39f4b6;
   border-radius: 50px;
 }
 ::selection {
@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
 /* input defaults */
-input[type=text]{
+.search-field{
   border: none;
   outline: none;
   padding: .8em;

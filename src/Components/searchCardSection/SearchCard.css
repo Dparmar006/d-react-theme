@@ -13,6 +13,7 @@
     justify-content: space-around;
 }
 .search-form input button {
+    
      box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.080);
 }
 
@@ -34,6 +35,7 @@
 
 .search-card-buttons {
     position: absolute;
+ 
     top: 1em;
     right: 1em;
     display: flex;
@@ -42,13 +44,18 @@
 }
 
 .search-icon-button {
+    box-shadow: none;
+       background: none;
+       color: black;
     font-size: xx-small;
     display: grid;
     align-items: center;
     padding: 5px;
     font-size: x-small;
 }
-
+.search-icon-button:hover {
+    box-shadow: none;
+}
 @media screen and (min-width: 550px) {
     .section__container {
         flex-direction: row;

@@ -42,7 +42,11 @@ const SearchCards = () => {
       <div className="section__container">
         <div className="section__left">
           <form className="search-form">
-            <input type="text" placeholder="Search here" />
+            <input
+              type="text"
+              placeholder="Search here"
+              className="search-field"
+            />
             <button>
               {/* TODO: Make this primary button */}
               <div className="icon">
