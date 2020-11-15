@@ -3,6 +3,7 @@ import Base from "./Base";
 import ExploreCards from "./Components/exploreCards/ExploreCards";
 import FormElements from "./Components/form/FormElements";
 import Navbar from "./Components/navbar/Navbar";
+import Notifications from "./Components/notifications/Notifications";
 import SearchCards from "./Components/searchCardSection/SearchCards";
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <SearchCards />
       <ExploreCards />
       <FormElements />
+      <Notifications />
     </Base>
   );
 }

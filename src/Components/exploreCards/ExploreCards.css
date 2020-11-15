@@ -32,9 +32,9 @@
     .explore-cards {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     .explore-card {
-        margin: 2em 1em;
+        margin: 2em 4em;
     }
 }

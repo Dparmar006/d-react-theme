@@ -60,7 +60,6 @@ const FormElements = () => {
                 type="checkbox"
                 value="policy1"
                 name="policy"
-                checked
                 className="form__element"
               />
               I accept Privacy & Policy

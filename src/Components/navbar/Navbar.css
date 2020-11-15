@@ -45,6 +45,12 @@ header {
      color: black;
      box-shadow: none;
  }
+ .menu-button:hover {
+box-shadow: none;
+ }
+ .icon-button {
+     
+ }
  .nav-links {
      display: none;
  }

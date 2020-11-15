@@ -1,7 +1,7 @@
 import React from "react";
 import "./SearchCard.css";
 const SearchCards = () => {
-  const searchCard = (title) => {
+  const searchCard = (title, subtitle, description) => {
     return (
       <div className="search-card">
         <h3 className="search-card-title">{title}</h3>
@@ -44,7 +44,7 @@ const SearchCards = () => {
           <form className="search-form">
             <input
               type="text"
-              placeholder="Search here"
+              placeholder="Search a service..."
               className="search-field"
             />
             <button>
@@ -61,7 +61,7 @@ const SearchCards = () => {
           {searchCard("First card")}
           {searchCard("Second card")}
           {searchCard("Third card")}
-          {searchCard("Fourth card")}
+
           <div className="cards"></div>
         </div>
       </div>

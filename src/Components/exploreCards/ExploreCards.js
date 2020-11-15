@@ -5,7 +5,7 @@ const ExploreCards = () => {
     return (
       <div className="explore-card">
         <img
-          src="https://images.unsplash.com/photo-1594637607376-0922e1e64073?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=60"
+          src="./assets/images/sample.jpg"
           alt="shop photo"
           className="shop-photo"
         />
@@ -36,24 +36,6 @@ const ExploreCards = () => {
           {exploreCard({
             title: "Third explore",
             subtitle: "Third subtitle",
-            description:
-              "Irure culpa sint cupidatat nostrud velit ut fugiat voluptate aliquip ad ullamco.",
-          })}
-          {exploreCard({
-            title: "First explore",
-            subtitle: "First subtitle",
-            description:
-              "Irure culpa sint cupidatat nostrud velit ut fugiat voluptate aliquip ad ullamco.",
-          })}
-          {exploreCard({
-            title: "First explore",
-            subtitle: "First subtitle",
-            description:
-              "Irure culpa sint cupidatat nostrud velit ut fugiat voluptate aliquip ad ullamco.",
-          })}
-          {exploreCard({
-            title: "First explore",
-            subtitle: "First subtitle",
             description:
               "Irure culpa sint cupidatat nostrud velit ut fugiat voluptate aliquip ad ullamco.",
           })}
