@@ -128,4 +128,5 @@ button:hover {
 img {
   height: 100%;
   width: 100%;
+  box-shadow: var(--shadow);
 }

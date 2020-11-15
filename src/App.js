@@ -2,16 +2,17 @@ import "./App.css";
 import Base from "./Base";
 import ExploreCards from "./Components/exploreCards/ExploreCards";
 import FormElements from "./Components/form/FormElements";
-import Navbar from "./Components/navbar/Navbar";
-import Notifications from "./Components/notifications/Notifications";
+// import Notifications from "./Components/notifications/Notifications";
 import SearchCards from "./Components/searchCardSection/SearchCards";
+import TextTiles from "./Components/textTiles/TextTiles";
 function App() {
   return (
     <Base>
       <SearchCards />
       <ExploreCards />
       <FormElements />
-      <Notifications />
+      {/* <Notifications /> */}
+      <TextTiles />
     </Base>
   );
 }

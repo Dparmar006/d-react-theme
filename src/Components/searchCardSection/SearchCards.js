@@ -44,10 +44,12 @@ const SearchCards = () => {
           <form className="search-form">
             <input
               type="text"
-              placeholder="Search a service..."
+              placeholder="How can I help ?"
               className="search-field"
+              role="search"
+              autoFocus
             />
-            <button>
+            <button type="submit">
               {/* TODO: Make this primary button */}
               <div className="icon">
                 <i className="material-icons">search</i>
