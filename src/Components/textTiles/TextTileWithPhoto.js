@@ -11,7 +11,6 @@ const TextTileWithPhoto = ({ title, content }) => {
       <p className="title">{title}</p>
 
       <p className="content">{content}</p>
-      <button className="primary-button">BUY</button>
     </div>
   );
 };

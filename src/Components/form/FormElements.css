@@ -38,6 +38,10 @@ input[type=checkbox], input[type=radio] {
 .primary-button {
     margin-top: 1em;
 }
+.help-text {
+    color: grey;
+    font-size: .9rem;
+}
 @media screen and (min-width: 550px) { 
    section {
        margin: 1.5em;

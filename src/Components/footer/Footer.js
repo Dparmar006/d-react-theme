@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, withRouter } from "react-router-dom";
 
 import "./Footer.css";
 const Footer = () => {
@@ -47,8 +48,8 @@ const Footer = () => {
           <div className="block">
             <ul className="footer__links">
               <li>
-                <a href="/form-components" className="footer__link active">
-                  Notifications
+                <a href="/extra-components" className="footer__link active">
+                  Extra components
                 </a>
               </li>
               <li>

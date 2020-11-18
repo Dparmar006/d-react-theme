@@ -19,3 +19,15 @@
     color: rgba(65, 54, 241, .7);
 }
 
+@media screen and (min-width: 550px){
+
+ .section__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.section__texttile {
+    margin: 1em 3em;
+}
+}
+

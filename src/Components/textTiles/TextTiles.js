@@ -9,14 +9,16 @@ const TextTiles = () => {
   return (
     <section>
       <h2>Text Tiles</h2>
-      <SimpleTextTile content={content} />
-      {/* 
+      <div className="section__container">
+        <SimpleTextTile content={content + content} />
+        {/* 
       TODO: 
       <BackgroundTextTile
-        content={content}
-        backgroundImage="E:\React\d-react-theme\public\assets\images\sample.jpg"
-      /> */}
-      <TextTileWithPhoto content={content} />
+      content={content}
+      backgroundImage="E:\React\d-react-theme\public\assets\images\sample.jpg"
+    /> */}
+        <TextTileWithPhoto content={content} />
+      </div>
     </section>
   );
 };

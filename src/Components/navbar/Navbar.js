@@ -12,11 +12,15 @@ const Navbar = () => {
   return (
     <header>
       <nav className="header__container">
-        <div className="header__logo">BookOn</div>
+        <div className="header__logo">
+          <a href="/" className="nav-link active">
+            BookOn
+          </a>
+        </div>
         <div className="header__menu">
           <ul className="nav-links">
             <li>
-              <a href="" className="nav-link active">
+              <a href="/" className="nav-link active">
                 Home
               </a>
             </li>

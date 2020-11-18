@@ -21,6 +21,9 @@ const LoginForm = () => {
           <button type="submit" className="primary-button">
             LOGIN
           </button>
+          <p className="help-text">
+            Already have an account ? <a href="/signup">Sign up</a>
+          </p>
         </div>
       </div>
     </form>
