@@ -12,4 +12,7 @@
 ## TextTiles
 ![TextTiles](https://github.com/Dparmar006/d-react-theme/blob/master/public/assets/images/ThemeImages/theme-images/TextTiles.png)
 
+## Extra Componenets
+![ExtraComponents](https://github.com/Dparmar006/d-react-theme/blob/master/public/assets/images/ThemeImages/theme-images/ExtraComponents.png)
+
 
