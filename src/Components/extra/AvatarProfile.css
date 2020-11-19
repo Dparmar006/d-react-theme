@@ -1,11 +1,12 @@
 .avatar-profile {
     min-width: 250px;
     max-width: 275px;
+    max-height: fit-content;
     background-color: white;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.080);
     padding: 1em;
     margin-bottom: 1.5em;
-    border-radius: 16px;
+    border-radius: 16px;        
 
 }
 .avatar-card__container {

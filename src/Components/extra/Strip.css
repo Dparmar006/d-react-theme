@@ -1,0 +1,28 @@
+.strip {
+     min-width: 250px;
+     max-width: 275px;
+     max-height: 60px;
+     max-height: fit-content;
+     background-color: white;
+     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.080);
+     padding: 1em;
+     margin-bottom: 1.5em;
+     border-radius: 16px;
+}
+.strip__container {
+    display: flex; align-items: center;
+    justify-content: space-between;
+}
+.strip__photo {
+    font-size: 1.4rem;   
+}
+.strip__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: .5em;
+}
+
+.strip__noti-type {
+    margin-top: 0;
+    color: gray;
+}
